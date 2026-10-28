@@ -1,6 +1,7 @@
 ---
+name: security-review
 description: Review the current changes against the DayLoop security rules
-agent: ask
+disable-model-invocation: true
 ---
 Review the changes in the current branch (or the selected files) against `docs/04-security.md`, especially section 6 (authorization), section 7 (tenant isolation), section 9 (API security) and the checklist in section 17, and against `.github/copilot-instructions.md`.
 

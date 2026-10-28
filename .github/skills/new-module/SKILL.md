@@ -1,8 +1,9 @@
 ---
-description: Scaffold a new backend module (controller, service, repository, policy, DTOs, tests) the DayLoop way
-agent: agent
+name: new-module
+description: "Scaffold a new backend module (controller, service, repository, policy, DTOs, tests) the DayLoop way"
+disable-model-invocation: true
 ---
-Create the backend module `${input:moduleName:kebab-case name, for example time-logs}` in `apps/api/src/modules/`.
+Create the backend module `[the value I type after the command]` in `apps/api/src/modules/`.
 
 Use `docs/02-architecture.md` (sections 3 and 6) and `.github/instructions/backend.instructions.md`.
 

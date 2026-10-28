@@ -1,8 +1,9 @@
 ---
-description: Write the missing tests for a file or feature, including security cases
-agent: agent
+name: write-tests
+description: "Write the missing tests for a file or feature, including security cases"
+disable-model-invocation: true
 ---
-Write tests for: ${input:target:File path or feature, for example apps/api/src/modules/leave}.
+Write tests for: [the value I type after the command].
 
 Follow `.github/instructions/tests.instructions.md`.
 

@@ -1,8 +1,9 @@
 ---
-description: Add a safe, backward-compatible database migration with a test
-agent: agent
+name: add-migration
+description: "Add a safe, backward-compatible database migration with a test"
+disable-model-invocation: true
 ---
-Add a migration for: ${input:change:What changes, for example add index on planItems (tenantId, date, userId)}.
+Add a migration for: [the value I type after the command].
 
 Follow `docs/05-devops.md` section 5 and `.github/instructions/database.instructions.md`.
 

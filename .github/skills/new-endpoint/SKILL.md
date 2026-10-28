@@ -1,8 +1,9 @@
 ---
-description: Add one API endpoint exactly as specified in the API document, with tests and OpenAPI
-agent: agent
+name: new-endpoint
+description: "Add one API endpoint exactly as specified in the API document, with tests and OpenAPI"
+disable-model-invocation: true
 ---
-Add this endpoint: `${input:endpoint:Method and path, for example POST /plan-items}`.
+Add this endpoint: `[the value I type after the command]`.
 
 1. Find it in `docs/03-api-spec.md` section 4 and use its purpose, permission and feature key exactly. If it is not listed there, stop and ask me.
 2. Write failing integration tests first: success, validation failure (422), unauthenticated (401), missing permission (403), insufficient scope (403), another company's object (404 or 403), version conflict (409) where it updates, and the ownership rule where it touches plan items.

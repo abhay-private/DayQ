@@ -1,11 +1,11 @@
 # Security-sensitive paths need a code owner review (docs/04-security.md section 13).
-# Replace @new-speech-pvt with the real owner or team.
-/apps/api/src/modules/auth/            @new-speech-pvt
-/apps/api/src/common/                  @new-speech-pvt
-/apps/api/src/modules/roles/           @new-speech-pvt
-/apps/api/src/modules/hierarchy/       @new-speech-pvt
-/apps/api/src/modules/platform-admin/  @new-speech-pvt
-/infra/                                @new-speech-pvt
-/.github/workflows/                    @new-speech-pvt
-/.github/copilot-instructions.md       @new-speech-pvt
-/AGENTS.md                             @new-speech-pvt
+# Replace @abhay-private with the real owner or team.
+/apps/api/src/modules/auth/            @abhay-private
+/apps/api/src/common/                  @abhay-private
+/apps/api/src/modules/roles/           @abhay-private
+/apps/api/src/modules/hierarchy/       @abhay-private
+/apps/api/src/modules/platform-admin/  @abhay-private
+/infra/                                @abhay-private
+/.github/workflows/                    @abhay-private
+/.github/copilot-instructions.md       @abhay-private
+/AGENTS.md                             @abhay-private

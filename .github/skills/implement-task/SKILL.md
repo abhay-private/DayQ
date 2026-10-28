@@ -1,8 +1,9 @@
 ---
-description: Implement one DayLoop roadmap task test-first, following the project documents
-agent: agent
+name: implement-task
+description: "Implement one DayLoop roadmap task test-first, following the project documents"
+disable-model-invocation: true
 ---
-Implement roadmap task ${input:taskId:Task id, for example M2-T05} from `docs/07-implementation-roadmap.md`.
+Implement roadmap task [the value I type after the command] from `docs/07-implementation-roadmap.md`.
 
 If that file or task does not exist, ask me to describe the task and the FR-IDs it covers before doing anything.
 
