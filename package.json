@@ -1,0 +1,26 @@
+{
+  "name": "dayloop",
+  "private": true,
+  "packageManager": "pnpm@12.15.0",
+  "engines": {
+    "node": "24.x",
+    "pnpm": "12.15.0"
+  },
+  "scripts": {
+    "dev": "node scripts/roadmap-placeholder.mjs dev",
+    "lint": "eslint . && prettier --check \"**/*.{js,mjs,ts,json,yaml,yml}\"",
+    "typecheck": "pnpm --recursive --if-present typecheck",
+    "test": "pnpm --recursive --if-present test",
+    "test:int": "node scripts/roadmap-placeholder.mjs test:int",
+    "test:e2e": "node scripts/roadmap-placeholder.mjs test:e2e",
+    "openapi:generate": "node scripts/roadmap-placeholder.mjs openapi:generate",
+    "migrate": "node scripts/roadmap-placeholder.mjs migrate"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "prettier": "^3.9.10",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1"
+  }
+}
